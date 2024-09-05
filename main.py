@@ -81,6 +81,7 @@ while True:
 
     # Renderiza o placar no canto superior esquerdo
     score_text = font.render(f"Maçãs: {score}", True, (255, 255, 255))
+
     screen.blit(score_text, (5, 5))
 
     pygame.display.update()
